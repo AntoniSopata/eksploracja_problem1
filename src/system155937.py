@@ -11,7 +11,7 @@ class MySystem(RatingSystem):
         if movie in user.ratings:
             return user.ratings[movie]
         else:
-            return 2.5
+            return 2.7
     def __str__(self):
         """
         Ta metoda zwraca numery indeksów wszystkich twórców rozwiązania. Poniżej przykład.
